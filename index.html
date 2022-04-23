@@ -724,10 +724,10 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <div class="info-box">
+              <div class="info-box" style="padding-bottom: 2.7em;">
                 <i class="bx bx-envelope"></i>
                 <h3>Email Us</h3>
-                <p>abid.khatri@theurbanbuilders.in</p>
+                <p>office@theurbanbuilders.in</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
@@ -739,7 +739,7 @@
             </div>
           </div>
 
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4" data-aos="fade-up" data-aos-delay="400">
+          <form id="contact-form" role="form" class="php-email-form mt-4" data-aos="fade-up" data-aos-delay="400">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -759,7 +759,7 @@
               <div class="error-message"></div>
               <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit" id="submit-form">Send Message</button></div>
           </form>
 
         </div>
@@ -859,6 +859,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
